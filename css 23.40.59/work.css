@@ -1,0 +1,113 @@
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body { height: 100% }
+
+body{
+	font-family: "Helvetica";
+	font-size: 100%;
+    background: ;
+}
+
+
+button{
+background-image: url("print.png");
+height: 100px;
+width: 1000px;
+
+}
+
+
+.grid-container {
+	width: 100%;
+	margin: 30px;
+
+}
+
+* { box-sizing: border-box; }
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+body { font-family: sans-serif; }
+
+
+
+    .grid-item:hover {
+        background: url("/assets/3rood.png") no-repeat;
+    }
+/* ---- grid ---- */
+
+.grid {
+	background-color:;
+	width: 76%;
+	margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 11%;
+  height: auto;
+  float: left;
+  border-radius: 10px;
+
+
+}
+
+.grid-item--width2 { width:  22%; }
+.grid-item--width3 { width:  33%; }
+.grid-item--width4 { width: 44%; }
+
+.grid-item--height2 { height: auto; }
+.grid-item--height3 { height: auto; }
+.grid-item--height4 { height: auto; }
+
+
+
+
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+	float: left;
+}
+
+.grid-item--width1  img {
+  display: block;
+  max-width: 100%;
+	float: left;
+}
+
+.grid-item--width2  img {
+  display: block;
+  max-width: 100%;
+	float: left;
+}
+
+.grid-item--width3  img {
+  display: block;
+  max-width: 100%;
+	float: left;
+}
+
+.grid-item--width4  img {
+  display: block;
+  max-width: 100%;
+	float: left;
+}
